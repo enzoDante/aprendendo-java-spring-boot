@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/math") // permite que todos os endpoints aq comecem com /math
+@RequestMapping("/math") // permite que todos os endpoints aqui comecem com /math
 public class MathController {
 
     private final NumericOperations op = new NumericOperations();
